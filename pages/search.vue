@@ -62,7 +62,7 @@ watch(
         v-focus
         type="text"
         text-2xl bg-transparent outline-none w-full
-        :placeholder="$t('Type to search...')"
+        :placeholder="$t('Type something to search...')"
         @keyup.enter="search"
       >
     </div>
